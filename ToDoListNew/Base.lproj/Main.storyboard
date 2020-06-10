@@ -146,7 +146,7 @@
         <!--Navigation Controller-->
         <scene sceneID="vOz-b4-NpC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oIN-3g-hdM" sceneMemberID="viewController">
+                <navigationController title="Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="oIN-3g-hdM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="O48-fp-bna">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
