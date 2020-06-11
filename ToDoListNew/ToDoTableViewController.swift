@@ -29,7 +29,12 @@ class ToDoTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+//if toDo.count , then update the image to a new image
+    //counter = 5
+    //image corresponding to each number of toDos
+    
+    
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -55,8 +60,8 @@ class ToDoTableViewController: UITableViewController {
         
     }
 */
-    func viewWillAppear(_animated: Bool){
-        getToDos()
+override func viewWillAppear(_ animated: Bool) {
+    getToDos()
     }
     
     
@@ -105,6 +110,9 @@ class ToDoTableViewController: UITableViewController {
 
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let plantVC = segue.destination as? HomePageViewController{
+            plantVC.previousVC = self
+        }
       if let addVC = segue.destination as? AddToDoViewController {
         addVC.previousVC = self
       }

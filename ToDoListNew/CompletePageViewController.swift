@@ -20,7 +20,7 @@ class CompletePageViewController: UIViewController {
     }
     
     @IBAction func completeTapped(_ sender: Any) {
-        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext
+        if let context = (UIApplication.shared.delegate as?  AppDelegate)?.persistentContainer.viewContext 
         {
             
             if let theToDo = selectedToDo {
