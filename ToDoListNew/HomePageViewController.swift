@@ -11,8 +11,17 @@ import UIKit
 class HomePageViewController: UIViewController {
     var previousVC = ToDoTableViewController()
     var count = 0
+    
+    @IBOutlet weak var newButton: UIButton!
+    @IBOutlet weak var aboutButton: UIButton!
+    @IBOutlet weak var plantButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        newButton.layer.cornerRadius = 20.0
+        aboutButton.layer.cornerRadius = 20.0
+        plantButton.layer.cornerRadius = 20.0
+
         count = previousVC.toDos.count
         // Do any additional setup after loading the view.
     }
