@@ -18,9 +18,9 @@ class HomePageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        newButton.layer.cornerRadius = 20.0
-        aboutButton.layer.cornerRadius = 20.0
-        plantButton.layer.cornerRadius = 20.0
+        newButton.layer.cornerRadius = 25.0
+        aboutButton.layer.cornerRadius = 25.0
+        plantButton.layer.cornerRadius = 25.0
 
         count = previousVC.toDos.count
         // Do any additional setup after loading the view.

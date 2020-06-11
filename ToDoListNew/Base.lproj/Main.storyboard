@@ -14,11 +14,15 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jPW-zf-Gx9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexBackgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rvy-KF-xoR">
                             <rect key="frame" x="0.0" y="100.5" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="HOME"/>
+                            <state key="normal" title="HOME">
+                                <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
                             <connections>
                                 <segue destination="cVM-aH-0zK" kind="show" id="O4w-Ph-E3u"/>
                             </connections>
@@ -30,6 +34,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CiQ-fy-s38" id="LYT-VW-kie">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifiers" rowHeight="1" id="AmX-Bd-ELr">
@@ -48,6 +53,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Test" id="B0n-EH-MgI">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="1Qp-jY-1is">
+                            <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="dWJ-zv-ZXv" kind="show" id="qjP-lk-F4w"/>
                             </connections>
@@ -85,7 +91,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="xn0-b8-lt2"/>
                     </view>
                     <navigationItem key="navigationItem" id="H6Z-f9-uuL"/>
@@ -105,9 +111,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="paperclip" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-Nh-T9x">
-                                <rect key="frame" x="44" y="97.5" width="326" height="646"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gray, White and Black Quote Instagram Post" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-Nh-T9x">
+                                <rect key="frame" x="44" y="98" width="332" height="668"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -134,12 +142,14 @@
                                 <rect key="frame" x="149" y="165" width="117" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4E6-f6-Qdm">
                                 <rect key="frame" x="63" y="218" width="289" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.75686274509999996" green="0.92941176469999998" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -147,7 +157,7 @@
                                 <rect key="frame" x="139" y="290" width="136" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="te5-nA-CuR">
@@ -157,13 +167,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfT-3O-DwS">
                                 <rect key="frame" x="132" y="433" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="add to do"/>
+                                <state key="normal" title="add to do">
+                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="addTapped:" destination="dWJ-zv-ZXv" eventType="touchUpInside" id="hzi-0p-fWV"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="q6w-DP-tUO"/>
                     </view>
                     <navigationItem key="navigationItem" id="ks8-BS-6uE"/>
@@ -188,54 +200,54 @@
                                 <rect key="frame" x="137" y="165" width="156" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="46"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A productivity app with a plant twist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-sa-AUT">
                                 <rect key="frame" x="111" y="245" width="208" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwo-dI-Rk8">
-                                <rect key="frame" x="124" y="368" width="182" height="67"/>
+                                <rect key="frame" x="124" y="368" width="182" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25882352939999997" green="0.61960784310000006" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.81960784313725488" green="0.95294117647058818" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="New">
-                                    <color key="titleColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="bkL-LH-5yQ" kind="show" id="Pgb-QX-D0q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OS-i8-lvm">
-                                <rect key="frame" x="124" y="454" width="182" height="66"/>
+                                <rect key="frame" x="124" y="457" width="182" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25882352939999997" green="0.61960784310000006" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="About/Help">
-                                    <color key="titleColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="ojM-ZX-y4F" kind="show" id="vUn-U7-YOp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzy-n2-dXX">
-                                <rect key="frame" x="124" y="545" width="182" height="48"/>
+                                <rect key="frame" x="124" y="545" width="182" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25882352939999997" green="0.61960784310000006" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Plant">
-                                    <color key="titleColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="plantButton:" destination="cVM-aH-0zK" eventType="touchUpInside" id="Jwa-xu-kpR"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.61568627450980395" green="0.83137254901960778" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.68235294117647061" green="0.91764705882352937" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="pX7-Kn-4BL"/>
                     </view>
                     <navigationItem key="navigationItem" id="M5G-Fl-6dl"/>
@@ -262,11 +274,11 @@
                                 <rect key="frame" x="88" y="179" width="216" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.61568627450980395" green="0.83137254901960778" blue="0.6470588235294118" alpha="0.98769263698630139" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.68235294117647061" green="0.91764705882352937" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="1fQ-Uj-MbN"/>
                     </view>
                     <navigationItem key="navigationItem" id="r6q-63-g5C"/>
@@ -297,7 +309,8 @@
     <inferredMetricsTieBreakers>
         <segue reference="Pgb-QX-D0q"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
-        <image name="paperclip" catalog="system" width="128" height="128"/>
+        <image name="Gray, White and Black Quote Instagram Post" width="1080" height="1080"/>
     </resources>
 </document>

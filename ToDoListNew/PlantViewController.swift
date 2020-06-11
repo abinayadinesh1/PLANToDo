@@ -20,27 +20,29 @@ class PlantViewController: UIViewController {
             plantImage.image = UIImage(named: "c4")
               }
         else if previousVC.count == 2{
-            print("there is two tasks")
+            print("there are two tasks")
             plantImage.image = UIImage(named: "c3")
             
         }
         else if previousVC.count == 3{
-            print("there is three tasks")
+            print("there are three tasks")
             plantImage.image = UIImage(named: "c2")
             
         }
         else if previousVC.count == 4{
-            print("there is two tasks")
+            print("there are two tasks")
             plantImage.image = UIImage(named: "c1")
             
         }
         else if previousVC.count == 5{
-            print("there is two tasks")
+            print("there are two tasks")
             plantImage.image = UIImage(named: "c0")
             
         }
+        else if previousVC.count == 0{
+            print("there are no tasks"); plantImage.image = UIImage(named: "Gray, White and Black Quote Instagram Post")
+        }
                   }
-// hey dude this is a comment
     
 //    print("This worked")
 //    plantImage.image = UIImage(named: plant0)
