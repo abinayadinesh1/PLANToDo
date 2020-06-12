@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		6E1BC151249128F300D80B27 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BC150249128F300D80B27 /* HomePageViewController.swift */; };
 		6E34A4B9249321EA00C6C8F0 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */; };
-		6E4A6A332493CEA3008C391A /* Yellow Rabbit - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A6A322493CEA3008C391A /* Yellow Rabbit - Personal Use.otf */; };
-		6E4A6A352493CF5D008C391A /* Hello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A6A342493CF5C008C391A /* Hello.ttf */; };
 		6E526F2B2491C01500AACFCB /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E526F2A2491C01400AACFCB /* PlantViewController.swift */; };
 		6EC60476248FB9ED00F3CE75 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */; };
 		6EC60478248FC78D00F3CE75 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */; };
@@ -24,6 +22,8 @@
 		6EF3187F248EB16A00EEB6DF /* ToDoListNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3187E248EB16A00EEB6DF /* ToDoListNewTests.swift */; };
 		6EF3188A248EB16A00EEB6DF /* ToDoListNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF31889248EB16A00EEB6DF /* ToDoListNewUITests.swift */; };
 		6EF3189C248EB58D00EEB6DF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3189B248EB58D00EEB6DF /* ToDo.swift */; };
+		CF7ADD312493D14B0023F635 /* Yellow Rabbit - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF7ADD302493D14B0023F635 /* Yellow Rabbit - Personal Use.otf */; };
+		CF7ADD332493D1AE0023F635 /* Hello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF7ADD322493D1AE0023F635 /* Hello.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 /* Begin PBXFileReference section */
 		6E1BC150249128F300D80B27 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
-		6E4A6A322493CEA3008C391A /* Yellow Rabbit - Personal Use.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellow Rabbit - Personal Use.otf"; path = "../../../Downloads/yellow_rabbit 2/Yellow Rabbit - Personal Use.otf"; sourceTree = "<group>"; };
-		6E4A6A342493CF5C008C391A /* Hello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hello.ttf; path = "../../../Downloads/hello 2/Hello.ttf"; sourceTree = "<group>"; };
 		6E526F2A2491C01400AACFCB /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +65,8 @@
 		6EF31889248EB16A00EEB6DF /* ToDoListNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListNewUITests.swift; sourceTree = "<group>"; };
 		6EF3188B248EB16A00EEB6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF3189B248EB58D00EEB6DF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		CF7ADD302493D14B0023F635 /* Yellow Rabbit - Personal Use.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellow Rabbit - Personal Use.otf"; path = "../../../Downloads/yellow_rabbit/Yellow Rabbit - Personal Use.otf"; sourceTree = "<group>"; };
+		CF7ADD322493D1AE0023F635 /* Hello.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Hello.ttf; path = ../../../Downloads/hello/Hello.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 				6E1BC150249128F300D80B27 /* HomePageViewController.swift */,
 				6E526F2A2491C01400AACFCB /* PlantViewController.swift */,
 				6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */,
-				6E4A6A342493CF5C008C391A /* Hello.ttf */,
-				6E4A6A322493CEA3008C391A /* Yellow Rabbit - Personal Use.otf */,
+				CF7ADD322493D1AE0023F635 /* Hello.ttf */,
+				CF7ADD302493D14B0023F635 /* Yellow Rabbit - Personal Use.otf */,
 			);
 			path = ToDoListNew;
 			sourceTree = "<group>";
@@ -259,10 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7ADD312493D14B0023F635 /* Yellow Rabbit - Personal Use.otf in Resources */,
+				CF7ADD332493D1AE0023F635 /* Hello.ttf in Resources */,
 				6EF31874248EB16A00EEB6DF /* LaunchScreen.storyboard in Resources */,
-				6E4A6A352493CF5D008C391A /* Hello.ttf in Resources */,
 				6EF31871248EB16A00EEB6DF /* Assets.xcassets in Resources */,
-				6E4A6A332493CEA3008C391A /* Yellow Rabbit - Personal Use.otf in Resources */,
 				6EF3186C248EB16300EEB6DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
