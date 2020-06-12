@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6E1BC151249128F300D80B27 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BC150249128F300D80B27 /* HomePageViewController.swift */; };
 		6E34A4B9249321EA00C6C8F0 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */; };
+		6E4A6A262493B91D008C391A /* CustomFonts- yellow_rabbit in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A6A252493B91D008C391A /* CustomFonts- yellow_rabbit */; };
+		6E4A6A282493B929008C391A /* CustomFonts -alesandra in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A6A272493B929008C391A /* CustomFonts -alesandra */; };
+		6E4A6A2C2493BDDA008C391A /* hello 2 in Resources */ = {isa = PBXBuildFile; fileRef = 6E4A6A2B2493BDD9008C391A /* hello 2 */; };
 		6E526F2B2491C01500AACFCB /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E526F2A2491C01400AACFCB /* PlantViewController.swift */; };
 		6EC60476248FB9ED00F3CE75 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */; };
 		6EC60478248FC78D00F3CE75 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */; };
@@ -44,6 +47,9 @@
 /* Begin PBXFileReference section */
 		6E1BC150249128F300D80B27 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
+		6E4A6A252493B91D008C391A /* CustomFonts- yellow_rabbit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "CustomFonts- yellow_rabbit"; path = "../../../Downloads/CustomFonts- yellow_rabbit"; sourceTree = "<group>"; };
+		6E4A6A272493B929008C391A /* CustomFonts -alesandra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "CustomFonts -alesandra"; path = "../../../Downloads/CustomFonts -alesandra"; sourceTree = "<group>"; };
+		6E4A6A2B2493BDD9008C391A /* hello 2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "hello 2"; path = "../../../Downloads/hello 2"; sourceTree = "<group>"; };
 		6E526F2A2491C01400AACFCB /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				6E1BC150249128F300D80B27 /* HomePageViewController.swift */,
 				6E526F2A2491C01400AACFCB /* PlantViewController.swift */,
 				6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */,
+				6E4A6A2B2493BDD9008C391A /* hello 2 */,
+				6E4A6A272493B929008C391A /* CustomFonts -alesandra */,
+				6E4A6A252493B91D008C391A /* CustomFonts- yellow_rabbit */,
 			);
 			path = ToDoListNew;
 			sourceTree = "<group>";
@@ -253,7 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4A6A262493B91D008C391A /* CustomFonts- yellow_rabbit in Resources */,
+				6E4A6A282493B929008C391A /* CustomFonts -alesandra in Resources */,
 				6EF31874248EB16A00EEB6DF /* LaunchScreen.storyboard in Resources */,
+				6E4A6A2C2493BDDA008C391A /* hello 2 in Resources */,
 				6EF31871248EB16A00EEB6DF /* Assets.xcassets in Resources */,
 				6EF3186C248EB16300EEB6DF /* Main.storyboard in Resources */,
 			);

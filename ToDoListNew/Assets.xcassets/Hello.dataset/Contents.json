@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "Hello.ttf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
