@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E1BC151249128F300D80B27 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1BC150249128F300D80B27 /* HomePageViewController.swift */; };
+		6E34A4B9249321EA00C6C8F0 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */; };
 		6E526F2B2491C01500AACFCB /* PlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E526F2A2491C01400AACFCB /* PlantViewController.swift */; };
 		6EC60476248FB9ED00F3CE75 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */; };
 		6EC60478248FC78D00F3CE75 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */; };
@@ -21,7 +22,6 @@
 		6EF3187F248EB16A00EEB6DF /* ToDoListNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3187E248EB16A00EEB6DF /* ToDoListNewTests.swift */; };
 		6EF3188A248EB16A00EEB6DF /* ToDoListNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF31889248EB16A00EEB6DF /* ToDoListNewUITests.swift */; };
 		6EF3189C248EB58D00EEB6DF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3189B248EB58D00EEB6DF /* ToDo.swift */; };
-		CF0502B72493213E00E96CA9 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0502B62493213E00E96CA9 /* resourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		6E1BC150249128F300D80B27 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		6E526F2A2491C01400AACFCB /* PlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewController.swift; sourceTree = "<group>"; };
 		6EC60475248FB9ED00F3CE75 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		6EC60477248FC78D00F3CE75 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		6EF31889248EB16A00EEB6DF /* ToDoListNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListNewUITests.swift; sourceTree = "<group>"; };
 		6EF3188B248EB16A00EEB6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF3189B248EB58D00EEB6DF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		CF0502B62493213E00E96CA9 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 				6EC60479248FD14700F3CE75 /* CompletePageViewController.swift */,
 				6E1BC150249128F300D80B27 /* HomePageViewController.swift */,
 				6E526F2A2491C01400AACFCB /* PlantViewController.swift */,
-				CF0502B62493213E00E96CA9 /* resourcesViewController.swift */,
+				6E34A4B8249321EA00C6C8F0 /* resourcesViewController.swift */,
 			);
 			path = ToDoListNew;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 				6EF31865248EB16300EEB6DF /* AppDelegate.swift in Sources */,
 				6E1BC151249128F300D80B27 /* HomePageViewController.swift in Sources */,
 				6EF31867248EB16300EEB6DF /* SceneDelegate.swift in Sources */,
-				CF0502B72493213E00E96CA9 /* resourcesViewController.swift in Sources */,
+				6E34A4B9249321EA00C6C8F0 /* resourcesViewController.swift in Sources */,
 				6EC60478248FC78D00F3CE75 /* AddToDoViewController.swift in Sources */,
 				6EC60476248FB9ED00F3CE75 /* ToDoTableViewController.swift in Sources */,
 				6E526F2B2491C01500AACFCB /* PlantViewController.swift in Sources */,

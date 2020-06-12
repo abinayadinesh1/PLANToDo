@@ -2,7 +2,7 @@
 //  resourcesViewController.swift
 //  ToDoListNew
 //
-//  Created by Angela Huynh on 6/11/20.
+//  Created by Abinaya Dinesh on 6/11/20.
 //  Copyright © 2020 Abinaya Dinesh. All rights reserved.
 //
 
