@@ -91,7 +91,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="xn0-b8-lt2"/>
                     </view>
                     <navigationItem key="navigationItem" id="H6Z-f9-uuL"/>
@@ -114,7 +114,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gray, White and Black Quote Instagram Post" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-Nh-T9x">
                                 <rect key="frame" x="44" y="98" width="332" height="668"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
@@ -175,7 +175,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.68235294120000001" green="0.91764705879999997" blue="0.73725490199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="q6w-DP-tUO"/>
                     </view>
                     <navigationItem key="navigationItem" id="ks8-BS-6uE"/>
@@ -200,23 +200,23 @@
                                 <rect key="frame" x="137" y="165" width="156" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="46"/>
-                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A productivity app with a plant twist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-sa-AUT">
                                 <rect key="frame" x="111" y="245" width="208" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="24"/>
-                                <color key="textColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwo-dI-Rk8">
                                 <rect key="frame" x="124" y="368" width="182" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.81960784313725488" green="0.95294117647058818" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.95686274509803915" green="0.9137254901960784" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="New">
-                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="bkL-LH-5yQ" kind="show" id="Pgb-QX-D0q"/>
@@ -228,7 +228,7 @@
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="About/Help">
-                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.01176470588" green="0.098039215690000001" blue="0.14901960780000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <segue destination="ojM-ZX-y4F" kind="show" id="vUn-U7-YOp"/>
@@ -240,14 +240,15 @@
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Plant">
-                                    <color key="titleColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="plantButton:" destination="cVM-aH-0zK" eventType="touchUpInside" id="Jwa-xu-kpR"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.68235294117647061" green="0.91764705882352937" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.57613470636806385" green="0.83444793843933518" blue="0.78728828301054521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="pX7-Kn-4BL"/>
                     </view>
                     <navigationItem key="navigationItem" id="M5G-Fl-6dl"/>
@@ -278,7 +279,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.68235294117647061" green="0.91764705882352937" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="1fQ-Uj-MbN"/>
                     </view>
                     <navigationItem key="navigationItem" id="r6q-63-g5C"/>
@@ -307,6 +308,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="O4w-Ph-E3u"/>
         <segue reference="Pgb-QX-D0q"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
