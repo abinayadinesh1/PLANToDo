@@ -113,14 +113,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gray, White and Black Quote Instagram Post" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-Nh-T9x">
-                                <rect key="frame" x="44" y="98" width="332" height="668"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gray, White and Black Quote Instagram Post" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-Nh-T9x">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jiH-Nh-T9x" firstAttribute="centerX" secondItem="1BJ-7W-sg3" secondAttribute="centerX" id="0KI-qk-zxN"/>
+                            <constraint firstItem="jiH-Nh-T9x" firstAttribute="centerY" secondItem="1BJ-7W-sg3" secondAttribute="centerY" id="Ikg-bu-Xkg"/>
+                            <constraint firstItem="jiH-Nh-T9x" firstAttribute="leading" secondItem="eer-Kq-nx9" secondAttribute="leading" id="Q3N-GX-ZyY"/>
+                            <constraint firstItem="jiH-Nh-T9x" firstAttribute="top" secondItem="eer-Kq-nx9" secondAttribute="top" id="jL9-my-4te"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eer-Kq-nx9"/>
                     </view>
                     <navigationItem key="navigationItem" id="9oW-Na-q6B"/>
@@ -198,12 +203,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cereus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Din-zH-TTl">
-                                <rect key="frame" x="137" y="165" width="156" height="72"/>
-                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="46"/>
-                                <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A productivity app with a plant twist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-sa-AUT">
                                 <rect key="frame" x="111" y="245" width="208" height="69"/>
                                 <constraints>
@@ -255,23 +254,31 @@
                                     <action selector="plantButton:" destination="cVM-aH-0zK" eventType="touchUpInside" id="Jwa-xu-kpR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cereus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Din-zH-TTl">
+                                <rect key="frame" x="137" y="126" width="156" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="Pt6-WT-lif"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="46"/>
+                                <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="centerX" secondItem="DGw-sa-AUT" secondAttribute="centerX" id="2GN-vx-36x"/>
                             <constraint firstItem="5OS-i8-lvm" firstAttribute="top" secondItem="pwo-dI-Rk8" secondAttribute="bottom" constant="27" id="2fR-5V-pNa"/>
                             <constraint firstItem="DGw-sa-AUT" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="111" id="2zS-D2-n9t"/>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="top" secondItem="pX7-Kn-4BL" secondAttribute="top" constant="126" id="3aI-7p-Fm2"/>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="137" id="4ME-mv-D7S"/>
                             <constraint firstItem="pwo-dI-Rk8" firstAttribute="trailing" secondItem="5OS-i8-lvm" secondAttribute="trailing" id="4mf-TI-wcz"/>
                             <constraint firstItem="pX7-Kn-4BL" firstAttribute="trailing" secondItem="DGw-sa-AUT" secondAttribute="trailing" constant="95" id="Bik-Gi-Fvi"/>
                             <constraint firstItem="Wzy-n2-dXX" firstAttribute="top" secondItem="5OS-i8-lvm" secondAttribute="bottom" constant="26" id="C9P-8E-edP"/>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="137" id="Mx2-a8-tkU"/>
                             <constraint firstItem="5OS-i8-lvm" firstAttribute="trailing" secondItem="Wzy-n2-dXX" secondAttribute="trailing" id="Q3T-Zt-HJm"/>
-                            <constraint firstItem="DGw-sa-AUT" firstAttribute="top" secondItem="Din-zH-TTl" secondAttribute="bottom" constant="8" id="bbO-9X-ybZ"/>
                             <constraint firstItem="DGw-sa-AUT" firstAttribute="centerX" secondItem="pwo-dI-Rk8" secondAttribute="centerX" id="blE-sJ-sBn"/>
                             <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="5OS-i8-lvm" secondAttribute="leading" id="cgK-wF-L4h"/>
                             <constraint firstItem="pX7-Kn-4BL" firstAttribute="bottom" secondItem="Wzy-n2-dXX" secondAttribute="bottom" constant="201" id="j1H-mw-oyx"/>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="centerX" secondItem="DGw-sa-AUT" secondAttribute="centerX" id="nka-RN-mbx"/>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="top" secondItem="pX7-Kn-4BL" secondAttribute="top" constant="165" id="oKu-mb-OuR"/>
                             <constraint firstItem="5OS-i8-lvm" firstAttribute="leading" secondItem="Wzy-n2-dXX" secondAttribute="leading" id="tJd-iO-6I7"/>
                             <constraint firstItem="pwo-dI-Rk8" firstAttribute="top" secondItem="DGw-sa-AUT" secondAttribute="bottom" constant="54" id="wep-Ot-Aic"/>
                             <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="124" id="wmC-1b-6MR"/>
@@ -306,10 +313,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6wM-sa-0fe">
-                                <rect key="frame" x="87" y="270" width="240" height="128"/>
+                                <rect key="frame" x="87" y="225" width="240" height="216.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.57647058819999997" green="0.83529411760000005" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">--https://www.nytimes.com/guides/business/how-to-improve-your-productivity-at-work
+
+--https://www.heart.org/en/healthy-living/healthy-lifestyle/stress-management/3-tips-to-manage-stress
+
+--https://www.verywellmind.com/top-school-stress-relievers-for-students-3145179</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -319,6 +330,9 @@
                         <viewLayoutGuide key="safeArea" id="1fQ-Uj-MbN"/>
                     </view>
                     <navigationItem key="navigationItem" id="r6q-63-g5C"/>
+                    <connections>
+                        <outlet property="links" destination="6wM-sa-0fe" id="nie-Xw-vWI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgT-xq-fWZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,9 +9,13 @@
 import UIKit
 
 class resourcesViewController: UIViewController {
-
+    
+    @IBOutlet weak var links: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        links.dataDetectorTypes = UIDataDetectorTypes.link
+        links.isEditable = false
 
         // Do any additional setup after loading the view.
     }
