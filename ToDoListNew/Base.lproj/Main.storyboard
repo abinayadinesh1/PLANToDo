@@ -215,7 +215,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwo-dI-Rk8">
                                 <rect key="frame" x="124" y="368" width="182" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95686274509803915" green="0.9137254901960784" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.8212320434" green="0.95416828109999996" blue="0.96319240510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="New">
                                     <color key="titleColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98999999999999999" colorSpace="custom" customColorSpace="displayP3"/>
@@ -310,7 +310,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="O4w-Ph-E3u"/>
         <segue reference="Pgb-QX-D0q"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
