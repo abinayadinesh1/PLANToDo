@@ -204,10 +204,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A productivity app with a plant twist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGw-sa-AUT">
-                                <rect key="frame" x="111" y="245" width="208" height="69"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="xfc-8d-9ka"/>
-                                </constraints>
+                                <rect key="frame" x="111" y="268" width="208" height="69"/>
                                 <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="24"/>
                                 <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -216,7 +213,7 @@
                                 <rect key="frame" x="124" y="368" width="182" height="62"/>
                                 <color key="backgroundColor" red="0.8212320434" green="0.95416828109999996" blue="0.96319240510000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="aZs-zH-aOx"/>
+                                    <constraint firstAttribute="height" constant="62" id="mYN-3b-PPH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="New">
@@ -230,7 +227,7 @@
                                 <rect key="frame" x="124" y="457" width="182" height="62"/>
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="uZL-Vj-SGk"/>
+                                    <constraint firstAttribute="height" constant="62" id="5ma-w8-kgA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="About/Help">
@@ -244,7 +241,7 @@
                                 <rect key="frame" x="124" y="545" width="182" height="62"/>
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.92941176470588238" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="BhW-LD-van"/>
+                                    <constraint firstAttribute="height" constant="62" id="10p-Ps-9Ch"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Plant">
@@ -254,12 +251,12 @@
                                     <action selector="plantButton:" destination="cVM-aH-0zK" eventType="touchUpInside" id="Jwa-xu-kpR"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ccactus1" translatesAutoresizingMaskIntoConstraints="NO" id="Fnb-WA-2VH">
+                                <rect key="frame" x="-72" y="527" width="300" height="313"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cereus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Din-zH-TTl">
-                                <rect key="frame" x="137" y="126" width="156" height="126"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="126" id="Pt6-WT-lif"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="46"/>
+                                <rect key="frame" x="60" y="139" width="259" height="144"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="58"/>
                                 <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -267,21 +264,27 @@
                         <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.08235294118" green="0.23137254900000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="centerX" secondItem="DGw-sa-AUT" secondAttribute="centerX" id="2GN-vx-36x"/>
-                            <constraint firstItem="5OS-i8-lvm" firstAttribute="top" secondItem="pwo-dI-Rk8" secondAttribute="bottom" constant="27" id="2fR-5V-pNa"/>
-                            <constraint firstItem="DGw-sa-AUT" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="111" id="2zS-D2-n9t"/>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="top" secondItem="pX7-Kn-4BL" secondAttribute="top" constant="126" id="3aI-7p-Fm2"/>
-                            <constraint firstItem="Din-zH-TTl" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="137" id="4ME-mv-D7S"/>
-                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="trailing" secondItem="5OS-i8-lvm" secondAttribute="trailing" id="4mf-TI-wcz"/>
-                            <constraint firstItem="pX7-Kn-4BL" firstAttribute="trailing" secondItem="DGw-sa-AUT" secondAttribute="trailing" constant="95" id="Bik-Gi-Fvi"/>
-                            <constraint firstItem="Wzy-n2-dXX" firstAttribute="top" secondItem="5OS-i8-lvm" secondAttribute="bottom" constant="26" id="C9P-8E-edP"/>
-                            <constraint firstItem="5OS-i8-lvm" firstAttribute="trailing" secondItem="Wzy-n2-dXX" secondAttribute="trailing" id="Q3T-Zt-HJm"/>
-                            <constraint firstItem="DGw-sa-AUT" firstAttribute="centerX" secondItem="pwo-dI-Rk8" secondAttribute="centerX" id="blE-sJ-sBn"/>
-                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="5OS-i8-lvm" secondAttribute="leading" id="cgK-wF-L4h"/>
-                            <constraint firstItem="pX7-Kn-4BL" firstAttribute="bottom" secondItem="Wzy-n2-dXX" secondAttribute="bottom" constant="201" id="j1H-mw-oyx"/>
-                            <constraint firstItem="5OS-i8-lvm" firstAttribute="leading" secondItem="Wzy-n2-dXX" secondAttribute="leading" id="tJd-iO-6I7"/>
-                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="top" secondItem="DGw-sa-AUT" secondAttribute="bottom" constant="54" id="wep-Ot-Aic"/>
-                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="124" id="wmC-1b-6MR"/>
+                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="trailing" secondItem="5OS-i8-lvm" secondAttribute="trailing" id="17G-Ci-i3e"/>
+                            <constraint firstItem="5OS-i8-lvm" firstAttribute="trailing" secondItem="Wzy-n2-dXX" secondAttribute="trailing" id="3A9-67-zDe"/>
+                            <constraint firstItem="pX7-Kn-4BL" firstAttribute="trailing" secondItem="Din-zH-TTl" secondAttribute="trailing" constant="95" id="4r2-te-1P4"/>
+                            <constraint firstItem="DGw-sa-AUT" firstAttribute="centerX" secondItem="pwo-dI-Rk8" secondAttribute="centerX" id="B7g-vY-WI4"/>
+                            <constraint firstItem="Fnb-WA-2VH" firstAttribute="top" secondItem="5OS-i8-lvm" secondAttribute="bottom" constant="8" id="BBE-Qg-OSe"/>
+                            <constraint firstItem="5OS-i8-lvm" firstAttribute="top" secondItem="pwo-dI-Rk8" secondAttribute="bottom" constant="27" id="EJC-rr-pcv"/>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="60" id="N5C-xl-hGb"/>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="top" secondItem="pX7-Kn-4BL" secondAttribute="top" constant="139" id="NQU-CF-2ol"/>
+                            <constraint firstItem="pX7-Kn-4BL" firstAttribute="trailing" secondItem="Fnb-WA-2VH" secondAttribute="trailing" constant="186" id="QN7-he-ikS"/>
+                            <constraint firstItem="DGw-sa-AUT" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="111" id="Ri3-TL-Np3"/>
+                            <constraint firstItem="DGw-sa-AUT" firstAttribute="top" secondItem="pX7-Kn-4BL" secondAttribute="top" constant="268" id="Wc7-PC-I4T"/>
+                            <constraint firstItem="Fnb-WA-2VH" firstAttribute="leading" secondItem="qGZ-PA-xXt" secondAttribute="leadingMargin" constant="-92" id="YCj-hP-VeA"/>
+                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="top" secondItem="Din-zH-TTl" secondAttribute="bottom" constant="85" id="his-ci-arA"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Fnb-WA-2VH" secondAttribute="bottom" constant="-32" id="m8H-NQ-NFk"/>
+                            <constraint firstItem="pX7-Kn-4BL" firstAttribute="bottom" secondItem="Wzy-n2-dXX" secondAttribute="bottom" constant="201" id="mzF-Tx-EFL"/>
+                            <constraint firstItem="5OS-i8-lvm" firstAttribute="leading" secondItem="Wzy-n2-dXX" secondAttribute="leading" id="o9L-ax-AG5"/>
+                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="5OS-i8-lvm" secondAttribute="leading" id="p7R-Er-wui"/>
+                            <constraint firstItem="Din-zH-TTl" firstAttribute="trailing" secondItem="DGw-sa-AUT" secondAttribute="trailing" id="qaE-ws-KYA"/>
+                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="top" secondItem="DGw-sa-AUT" secondAttribute="bottom" constant="31" id="tG2-qQ-Egi"/>
+                            <constraint firstItem="pwo-dI-Rk8" firstAttribute="leading" secondItem="pX7-Kn-4BL" secondAttribute="leading" constant="124" id="xfX-61-FvI"/>
+                            <constraint firstItem="Wzy-n2-dXX" firstAttribute="top" secondItem="5OS-i8-lvm" secondAttribute="bottom" constant="26" id="z9b-Gb-1Jx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pX7-Kn-4BL"/>
                     </view>
@@ -305,28 +308,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1u-sd-Kfg">
-                                <rect key="frame" x="99" y="136" width="216" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ccactus3" translatesAutoresizingMaskIntoConstraints="NO" id="AgR-SS-n1y">
+                                <rect key="frame" x="66" y="517" width="283" height="312"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="312" id="9nR-n4-2u5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Resources" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1u-sd-Kfg">
+                                <rect key="frame" x="99" y="135" width="216" height="95"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
                                 <color key="textColor" red="0.011764705882352941" green="0.098039215686274508" blue="0.14901960784313725" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6wM-sa-0fe">
-                                <rect key="frame" x="87" y="225" width="240" height="216.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6wM-sa-0fe">
+                                <rect key="frame" x="87" y="225" width="240" height="283.5"/>
                                 <color key="backgroundColor" red="0.57647058819999997" green="0.83529411760000005" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <string key="text">--https://www.nytimes.com/guides/business/how-to-improve-your-productivity-at-work
 
 --https://www.heart.org/en/healthy-living/healthy-lifestyle/stress-management/3-tips-to-manage-stress
 
---https://www.verywellmind.com/top-school-stress-relievers-for-students-3145179</string>
+--https://www.verywellmind.com/top-school-stress-relievers-for-students-3145179
+
+--https://www.health.harvard.edu/mind-and-mood/surviving-tumultuous-times</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.57647058823529407" green="0.83529411764705885" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.56322215512012153" green="0.83529411764705885" blue="0.7883943244046977" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="AgR-SS-n1y" firstAttribute="centerX" secondItem="D1u-sd-Kfg" secondAttribute="centerX" id="3vA-0b-zFn"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="AgR-SS-n1y" secondAttribute="bottom" constant="-21" id="6p9-vA-PlS"/>
+                            <constraint firstItem="AgR-SS-n1y" firstAttribute="top" secondItem="6wM-sa-0fe" secondAttribute="bottom" constant="8.5" id="8zc-Jg-oWj"/>
+                            <constraint firstItem="AgR-SS-n1y" firstAttribute="centerX" secondItem="3OC-x7-TzM" secondAttribute="centerX" id="gEi-7J-ewx"/>
+                            <constraint firstItem="AgR-SS-n1y" firstAttribute="centerX" secondItem="6wM-sa-0fe" secondAttribute="centerX" id="i18-YC-kwd"/>
+                            <constraint firstItem="AgR-SS-n1y" firstAttribute="leading" secondItem="1fQ-Uj-MbN" secondAttribute="leading" constant="66" id="wzj-FH-CKp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1fQ-Uj-MbN"/>
                     </view>
                     <navigationItem key="navigationItem" id="r6q-63-g5C"/>
@@ -363,5 +380,7 @@
     <color key="tintColor" red="0.43921568630000002" green="0.33333333329999998" blue="0.26274509800000001" alpha="0.98769263699999998" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
         <image name="Gray, White and Black Quote Instagram Post" width="1080" height="1080"/>
+        <image name="ccactus1" width="740" height="756"/>
+        <image name="ccactus3" width="558" height="476"/>
     </resources>
 </document>
